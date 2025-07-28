@@ -16,12 +16,11 @@ import {
   Linkedin,
   Menu,
   X,
-  Target,
+  
   BookOpen,
   Trophy,
   Heart,
   Cloud,
-  Instagram
 } from 'lucide-react';
 
 
@@ -80,29 +79,29 @@ function App() {
     { name: 'Git/GitHub', level: 85, category: 'Tools' }
   ];
 
-  const projects = [
-    {
-      title: "Disaster Management and Alert System",
-      description: "Real-time disaster alerts and emergency coordination platform with live tracking and SMS notifications",
-      tech: ["React.js", "Node.js", "MongoDB", "Google Maps API", "Twilio"],
-      image: "https://images.pexels.com/photos/73909/pexels-photo-73909.jpeg?auto=compress&cs=tinysrgb&w=800",
-      link: "#"
-    },
-    {
-      title: "AWS Cloud Deployment",
-      description: "Web application deployment on AWS EC2 instances with hands-on cloud computing experience",
-      tech: ["AWS EC2", "Cloud Computing", "Web Deployment"],
-      image: "https://images.pexels.com/photos/1181671/pexels-photo-1181671.jpeg?auto=compress&cs=tinysrgb&w=800",
-      link: "#"
-    },
-    {
-      title: "Java Programming Projects",
-      description: "Object-oriented programming projects covering data structures, exception handling, and file I/O operations",
-      tech: ["Java", "OOPs", "Data Structures", "Exception Handling"],
-      image: "https://images.pexels.com/photos/1181467/pexels-photo-1181467.jpeg?auto=compress&cs=tinysrgb&w=800",
-      link: "#"
-    }
-  ];
+  // const projects = [
+  //   {
+  //     title: "Disaster Management and Alert System",
+  //     description: "Real-time disaster alerts and emergency coordination platform with live tracking and SMS notifications",
+  //     tech: ["React.js", "Node.js", "MongoDB", "Google Maps API", "Twilio"],
+  //     image: "https://images.pexels.com/photos/73909/pexels-photo-73909.jpeg?auto=compress&cs=tinysrgb&w=800",
+  //     link: "#"
+  //   },
+  //   {
+  //     title: "AWS Cloud Deployment",
+  //     description: "Web application deployment on AWS EC2 instances with hands-on cloud computing experience",
+  //     tech: ["AWS EC2", "Cloud Computing", "Web Deployment"],
+  //     image: "https://images.pexels.com/photos/1181671/pexels-photo-1181671.jpeg?auto=compress&cs=tinysrgb&w=800",
+  //     link: "#"
+  //   },
+  //   {
+  //     title: "Java Programming Projects",
+  //     description: "Object-oriented programming projects covering data structures, exception handling, and file I/O operations",
+  //     tech: ["Java", "OOPs", "Data Structures", "Exception Handling"],
+  //     image: "https://images.pexels.com/photos/1181467/pexels-photo-1181467.jpeg?auto=compress&cs=tinysrgb&w=800",
+  //     link: "#"
+  //   }
+  // ];
 
   return (
     <div className="min-h-screen bg-gray-50 text-gray-900">
